@@ -1,111 +1,303 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-      
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <title>Mi Primer Instagram</title>
-    </head>
-    <body>
-        <nav class="navbar fixed-top navbar-light bg-light">
-            <span class="navbar-brand mb-0 ml-5 h1"><i class="fab fa-instagram"></i> Instagram</span>
-            <form class="form-inline">
-                <button data-toggle="modal" data-target="#exampleModal" class="btn btn-success" 
-                type="button">Crear un nuevo post</button>
-                <div class="btn-group">
-                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" 
-                    aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-cog"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <a class="dropdown-item" href="#">Comenzar</a>
-                        <a class="dropdown-item" href="#">Otras opciones</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Cerrar sesión</a>
-                    </div>
-                </div>
-            </form>
-        </nav>
-       
-        <nav aria-label="Page navigation example" class="margen">
-            <ul class="pagination justify-content-center">
-                <li class="page-item"><a class="page-link text-secondary" href="index.html">
-                    <i class="fas fa-th"></i></a>
-                </li>
-                <li class="page-item"><a class="page-link text-secondary" href="muro.html">■</a></li>
-            </ul>
-        </nav>
-       
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col px-0 ml-1">
-                    <img src="https://picsum.photos/id/237/445/180">
-                </div>
-                <div class="col px-0">
-                    <img src="https://picsum.photos/id/287/445/180">
-                </div>
-                <div class="col px-0">
-                    <img src="https://picsum.photos/id/293/445/180">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid seg-ter">
-            <div class="row">
-                <div class="col px-0 ml-1">
-                    <img src="https://picsum.photos/id/234/445/180">
-                </div>
-                <div class="col px-0">
-                    <img src="https://picsum.photos/id/189/445/180">
-                </div>
-                <div class="col px-0">
-                    <img src="https://picsum.photos/id/320/445/180">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid seg-ter">
-            <div class="row">
-                <div class="col px-0 ml-1">
-                    <img src="https://picsum.photos/id/128/445/180">
-                </div>
-                <div class="col px-0">
-                    <img src="https://picsum.photos/id/127/445/180">
-                </div>
-                <div class="col px-0">
-                    <img src="https://picsum.photos/id/172/445/180">
-                </div>
-            </div>
-        </div>
-        
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <textarea class="form-control" id="message-text"></textarea>
-                        </div>
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="fas fa-camera"></i>
-                        </button>
-                        <button type="button" class="btn btn-light btn-sm">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </button>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                        <button type="button" class="btn btn-success">Publicar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-   
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/02647ddf98.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <div class="container-fluid d-flex" id="container">
+      <a class="navbar-brand" href="#">
+        <i class="fa-brands fa-2x fa-instagram text-muted"></i>
+        <b class="h2 text-muted"><i>Instagram</i></b>
+      </a>
+      <div class="d-flex justify-content-end align-items-center">
+        <a class="navbar-brand" href="#">
+          <button type="button" class="btn btn-outline-secondary" id="button-post" data-bs-toggle="modal"
+            data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create a new post</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-2">
+                      <textarea class="form-control" id="message-text"></textarea>
+                      <i class="fa-solid fa-camera"></i>
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                  <button type="button" class="btn btn-primary">Publish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <div class="d-flex justify-content-end align-items-center">
+          <i class="fa-solid fa-gear text-muted"></i>
+          <div class="btn-gtoup dropstart">
+            <button class="fa-solid fa-caret-down border-0 bg-white text-muted" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Log out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </nav>
+  <div class="nav p-2 d-flex justify-content-center">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-item border-0 bg-white prueba" id="pills-home-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i
+            class="fas fa-th fa-lg text-muted"></i></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-item active border-0 bg-white" id="pills-profile-tab" data-bs-toggle="pill"
+          data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"><i
+            class="fas fa-square fa-lg text-muted" ></i></button>
+      </li>
+    </ul>
+  </div>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4 p-1"><img src="https://picsum.photos/id/191/367/267" alt="carretera montaña">
+          </div>
+          <div class="col-12 col-md-4 p-1"><img src="https://picsum.photos/id/169/367/267" alt="perros olfateando"></div>
+          <div class="col-12 col-md-4 p-1"><img src="https://picsum.photos/id/163/367/267" alt="restaurante"></div>
+          <div class="col-12 col-md-4 p-1"><img src="https://picsum.photos/id/106/367/267" alt="flores"></div>
+          <div class="col-12 col-md-4 p-1"><img src="https://picsum.photos/id/1035/367/267" alt="cascada"></div>
+          <div class="col-12 col-md-4 p-1"><img src="https://picsum.photos/id/102/367/267" alt="frambuesas"></div>
+          <div class="col-12 col-md-4 p-1"><img src="https://picsum.photos/id/1006/367/267"
+              alt="mujer con perro en monataña"></div>
+          <div class="col-12 col-md-4 p-1"><img src="https://picsum.photos/id/1004/367/267" alt="pareja beso"></div>
+          <div class="col-12 col-md-4 p-1"><img src="https://picsum.photos/id/100/367/267" alt="playa"></div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="container" id="container-profile">
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <div class="card bg-light mb-3">
+              <div class="card-header d-flex justify-content-between p-3">
+                <h3>Carreteras de ensueño</h3>
+                <span class="fs-5 text-muted">11/30</span>
+              </div>
+              <div class="card-body text-success p-0">
+                <img src="https://picsum.photos/id/191/367/267" alt="carretera montaña" class="w-100 h-auto">
+              </div>
+              <div class="card-footer p-3">
+                <p class="fw-bolder">31 likes</p>
+                <p>Con estos paisajes conducir es un placer..</p>
+                <div class="d-flex justify-content-between p-2">
+                  <div> <i class="fas fa-heart text-muted"></i><span class="m-2 text-muted">Comment...</span></div>
+                  <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <div class="card bg-light mb-3">
+              <div class="card-header d-flex justify-content-between p-3">
+                <h3>Perritos trabajando</h3>
+                <span class="fs-5 text-muted">12/30</span>
+              </div>
+              <div class="card-body text-success p-0">
+                <img src="https://picsum.photos/id/169/367/267" alt="perros olfateando" class="w-100 h-auto">
+              </div>
+              <div class="card-footer p-3">
+                <p class="fw-bolder">12 likes</p>
+                <p>Estos perritos están buscando algo...</p>
+                <div class="d-flex justify-content-between p-2">
+                  <div> <i class="fas fa-heart text-muted"></i><span class="m-2 text-muted">Comment...</span></div>
+                  <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <div class="card bg-light mb-3">
+              <div class="card-header d-flex justify-content-between p-3">
+                <h3>Restaurante perfectos</h3>
+                <span class="fs-5 text-muted">13/30</span>
+              </div>
+              <div class="card-body text-success p-0">
+                <img src="https://picsum.photos/id/163/367/267" alt="restaurante" class="w-100 h-auto">
+              </div>
+              <div class="card-footer p-3">
+                <p class="fw-bolder">24 likes</p>
+                <p>este aocgedor restaurante comimos una
+                  deliciosos platos de la región.</p>
+                <div class="d-flex justify-content-between">
+                  <div> <i class="fas fa-heart text-muted"></i><span class="m-2 text-muted">Comment...</span></div>
+                  <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <div class="card bg-light mb-3">
+              <div class="card-header d-flex justify-content-between p-3">
+                <h3>Flores de primavera</h3>
+                <span class="fs-5 text-muted">14/30</span>
+              </div>
+              <div class="card-body text-success p-0">
+                <img src="https://picsum.photos/id/106/367/267" alt="flores" class="w-100 h-auto">
+              </div>
+              <div class="card-footer p-3">
+                <p class="fw-bolder">28 likes</p>
+                <p>Con el buen tiempo las florecillas asoman..</p>
+                <div class="d-flex justify-content-between">
+                  <div> <i class="fas fa-heart text-muted"></i><span class="m-2 text-muted">Comment...</span></div>
+                  <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <div class="card bg-light mb-3">
+              <div class="card-header d-flex justify-content-between p-3">
+                <h3>Momentos mágicos</h3>
+                <span class="fs-5 text-muted">15/30</span>
+              </div>
+              <div class="card-body text-success p-0">
+                <img src="https://picsum.photos/id/1035/367/267" alt="cascada" class="w-100 h-auto">
+              </div>
+              <div class="card-footer p-3">
+                <p class="fw-bolder">17 likes</p>
+                <p>Este momento cascada y arcoiris nos enamoró.</p>
+                <div class="d-flex justify-content-between">
+                  <div> <i class="fas fa-heart text-muted"></i><span class="m-2 text-muted">Comment...</span></div>
+                  <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <div class="card bg-light mb-3">
+              <div class="card-header d-flex justify-content-between p-3">
+                <h3>Las primeras frambuesas</h3>
+                <span class="fs-5 text-muted">16/30</span>
+              </div>
+              <div class="card-body text-success p-0">
+                <img src="https://picsum.photos/id/102/367/267" alt="frambuesas" class="w-100 h-auto">
+              </div>
+              <div class="card-footer p-3">
+                <p class="fw-bolder">20 likes</p>
+                <p>Y por fin nuestro huerto dio sus primeros
+                  frutos..ÑAM ÑAM.</p>
+                <div class="d-flex justify-content-between">
+                  <div> <i class="fas fa-heart text-muted"></i><span class="m-2 text-muted">Comment...</span></div>
+                  <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <div class="card bg-light mb-3">
+              <div class="card-header d-flex justify-content-between p-3">
+                <h3>Paisajes</h3>
+                <span class="fs-5 text-muted">17/30</span>
+              </div>
+              <div class="card-body text-success p-0">
+                <img src="https://picsum.photos/id/1006/367/267" alt="mujer con perro en monataña" class="w-100 h-auto">
+              </div>
+              <div class="card-footer p-3">
+                <p class="fw-bolder">25 likes</p>
+                <p>Trufo y yo disfrutando de las mejores vistas.</p>
+                <div class="d-flex justify-content-between">
+                  <div> <i class="fas fa-heart text-muted"></i><span class="m-2 text-muted">Comment...</span></div>
+                  <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <div class="card bg-light mb-3">
+              <div class="card-header d-flex justify-content-between p-3">
+                <h3>Momentos</h3>
+                <span class="fs-5 text-muted">18/30</span>
+              </div>
+              <div class="card-body text-success p-0">
+                <img src="https://picsum.photos/id/1004/367/267" alt="pareja beso" class="w-100 h-auto">
+              </div>
+              <div class="card-footer p-3">
+                <p class="fw-bolder">18 likes</p>
+                <p>Quien puediera quedarse en este momento para siempre.</p>
+                <div class="d-flex justify-content-between">
+                  <div> <i class="fas fa-heart text-muted"></i><span class="m-2 text-muted">Comment...</span></div>
+                  <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <div class="card bg-light mb-3">
+              <div class="card-header d-flex justify-content-between p-3">
+                <h3>Ya llegó el verano</h3>
+                <span class="fs-5 text-muted">19/30</span>
+              </div>
+              <div class="card-body text-success p-0">
+                <img src="https://picsum.photos/id/100/367/267" alt="playa" class="w-100 h-auto">
+              </div>
+              <div class="card-footer p-3">
+                <p class="fw-bolder">30 likes</p>
+                <p>Y con el buen tiempo..¿A quien no le apetece un
+                  bañito?</p>
+                <div class="d-flex justify-content-between">
+                  <div> <i class="fas fa-heart text-muted"></i><span class="m-2 text-muted">Comment...</span></div>
+                  <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
